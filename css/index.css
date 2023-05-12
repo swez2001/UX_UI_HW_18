@@ -123,6 +123,7 @@ h3 {
 
 .MySkillsFlex {
     display: flex;
+    flex-direction: row;
 }
 
 #SkillsTitle {
@@ -154,7 +155,7 @@ h3 {
     width: 33%;
     margin: 37px;
     padding: 22px;
-    margin-right: 64px;
+    margin-right: -27px;
     background-color: #E5EAF5;
 }
 
@@ -171,7 +172,7 @@ h3 {
     width: 33%;
     margin: 38px;
     padding: 21px;
-    margin-left: -53px;
+    margin-left: 39px;
     background-color: #E5EAF5;
 }
 
@@ -210,7 +211,7 @@ h3 {
 .content1 img {
     float: left;
     height: 411px;
-    margin-left: 210px;
+    margin-left: 200px;
 
 }
 .backing-block1{
@@ -221,6 +222,7 @@ h3 {
 .backing-block1 h2{
     margin-right: 218px;
     text-align: left;
+    margin-left: 20px;
 }
 
 .backing-block1 p {
@@ -228,6 +230,7 @@ h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     text-align: left;
+    margin-left: 20px;
 }
 
 
@@ -241,7 +244,7 @@ h3 {
 .content2 img {
     float: left;
     height: 411px;
-    margin-left: 210px;
+    margin-left: 200px;
 
 }
 .backing-block2{
@@ -252,6 +255,7 @@ h3 {
 .backing-block2 h2{
     margin-right: 264px;
     text-align: left;
+    margin-left: 20px;
 }
 
 .backing-block2 p {
@@ -259,6 +263,7 @@ h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     text-align: left;
+    margin-left: 20px;
 }
 
 .content3{
@@ -279,7 +284,7 @@ h3 {
 
 .backing-block3 h2{
         text-align: left;
-        margin-right: 150px;
+        margin-right: 130px;
         margin-left: 20px;
 }
 
@@ -372,7 +377,46 @@ footer .fa {
     color: white;
   }
 
-  @media only screen and (max-width:600) {
+  @media only screen and (max-width:600px) {
+      .WorkGrid{
+            display: grid;
+            grid-template-areas: 'travelimg' 
+            'travelcontent' 
+            'moodieimg' 
+            'moodiecontent'
+            'sisterimg' 
+            'sisterworkscontent' 
+            'atoimg' 
+            'atocontent';
+            grid-gap: 0px;
+            padding: 36px;
+            grid-column-gap: 70px;
+      }
+
+      .MySkillsFlex{
+          flex-direction: column;
+      }
+
+      .UserResearch img {
+        height: 100px;
+    }
+    
+    
+    .UIP img{
+        height: 100px;
+    }
+    
+    .WebDev img {
+        height: 100px;
+    }
+    
+      
+      body {
+      background-image: linear-gradient(#A0D2EB, #D0BDF4, #A0D2EB);
+      background-repeat: no-repeat;
+      text-align: center;
+      width: auto;
+}
 
   }
 
