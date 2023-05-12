@@ -121,6 +121,76 @@ h3 {
 }
 
 
+.MySkillsFlex {
+    display: flex;
+}
+
+#SkillsTitle {
+    font-size: 30px;
+    font-weight: 600;
+    font-family:  'Poppins', sans-serif;
+    color: #494D5F;
+    padding: 10px;
+}
+
+.UserResearch {
+    width: 33%;
+    margin: 37px;
+    padding: 21px;
+    margin-right: -26px;
+    background-color: #E5EAF5;
+}
+
+.UserResearch img {
+    height: 200px;
+}
+
+.UserResearch p {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.UIP {
+    width: 33%;
+    margin: 37px;
+    padding: 22px;
+    margin-right: 64px;
+    background-color: #E5EAF5;
+}
+
+.UIP img{
+    height: 200px;
+}
+
+.UIP p {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.WebDev {
+    width: 33%;
+    margin: 38px;
+    padding: 21px;
+    margin-left: -53px;
+    background-color: #E5EAF5;
+}
+
+.WebDev img {
+    height: 200px;
+}
+
+.WebDev p {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#WorkTitle {
+    font-size: 30px;
+    font-weight: 600;
+    font-family:  'Poppins', sans-serif;
+    color: #494D5F;
+}
+
 .content1 h3 {
     text-align: left;
     margin-left: 237px;
@@ -249,6 +319,8 @@ h3 {
     margin-left: 59px;
 
 }
+
+
 
 .Footer {
 margin-top: 50px;
